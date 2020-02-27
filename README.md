@@ -4,8 +4,6 @@
 
 This currently provides a easy to use sqlite and postgres database commands.  If you install SQLCypher, the library can also handle the encryption of the database.
 
-The file needs to be compiled with Cython.
-
 ## Installation 
 Run the following to install:
 
@@ -14,6 +12,9 @@ pip install pav_logger
 ```
 
 ## Usage
+
+
+```python
 Optional:
     log_name:
         Provides a way to specify another log file name:
@@ -33,7 +34,6 @@ Optional:
         Default:
             '#'
 
-```python
 import pav_logger
 
 pav_logger = pav_logger.PavLogger()
